@@ -1,0 +1,46 @@
+/* hide scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.logo{
+    filter: invert(100%);
+}  
+
+html:focus-within {
+    scroll-behavior: smooth !important;
+}
+
+.fadein1{
+    animation: fadein 3s normal;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0; 
+    }
+    to{
+        opacity: 1;
+    }
+}
+.dropdown-menu{
+    display: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 353px) {
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    nav ul{
+        display: inline-block !important;
+        
+    }
+    nav li{
+        margin:0 !important; 
+    }
+}
