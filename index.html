@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./imgs/favicon/favicon.ico">
     <link rel="icon" href="./imgs/favicon/favicon.ico" />
     <link rel="stylesheet" href="./style/index.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="./scripts/login.js"></script>
     <link rel="stylesheet" href="./style/style.css">
     <title>Harsh, welcomes you</title>
@@ -34,7 +34,7 @@
     </div>
 
     <!-- landing content- Home -->
-    <section  class="flex p-10 justify-evenly lg:mt-4 h-max">
+    <section  class="flex p-10 justify-center lg:mt-4 h-max">
         <div class="intro ml-5 md:w-1/2 md:inline-block lg:w-5/12 inline-block h-auto">
             <div class="message lg:m-9">
                 <span class="block w-max hover:scale-125 duration-300">
@@ -55,18 +55,42 @@
     </section>
 
     <!-- about -->
-    <article id="About"  class="flex p-10 justify-evenly h-max">
-        <div class="hidden md:inline-block lg:inline-block md:w-1/4 lg:w-2/12 ">
+    <article id="About"  class="flex justify-evenly h-max">
+        <div class="hidden md:inline-block my-[7%] lg:inline-block md:w-1/4 lg:w-2/12 ">
             <img class="hover:scale-125 duration-300" src="./imgs/aboutphoto.png" alt="boy coding">
         </div>
-        <div class="ml-5 md:w-1/2 md:inline-block lg:w-5/12 inline-block h-auto">
+        <div class="ml-5 my-[7%] md:w-1/2 md:inline-block lg:w-5/12 inline-block h-auto">
             <div class="message hover:scale-110 duration-300 lg:m-9 ">
                 <p class="p-2 text-5">Harsh is a student of computer engineering , he is 17 years old and has fair grip over programming and problem solving , he is able to learn new languages to solve a real life problems.He currently knows: HTML, CSS, Java, php, vb.net, C, C++, python, machine learning with python and he is currently learning javascript and andriod.</p>
             </div>
         </div>      
     </article>
     <section>
+        <div id="Projects" class="flex justify-center lg:space-x-7 w-full h-full p-5 flex-wrap flex-col md:flex-col lg:flex-row ">
+            <div class="item  hover:scale-105 mt-9 duration-200 lg:w-1/4">
+                <img class="w-full m-auto" src="imgs/idcard.jpg" alt="Id card image">
+                
+                <h3 class="py-5 font-extrabold">Id card Project</h3>
+                <p class="py-5">Implemented a website for adding new students in department,getting information , requesting and accepting id cards information.Implemented with PHP and mySQL. </p>
+                <a href="https://github.com/fake-harsh/id_card_project" class="text-blue-700 font-light text-lg" target="_blank">Github</a>
+            </div>
 
+            <div class="item  hover:scale-105 mt-9 duration-200 lg:w-1/4">
+                <img class="m-auto" src="imgs/testcase.jpg" alt="Id card image">
+                <h3 class="py-5 font-extrabold">Test Case Validator</h3>
+                <p class="py-5">Implemented a software for college student that checks code of every student with multiple test cases given by professor to software and produce output on console as well as in an excel file.This solution is made with python.</p>
+                <a href="https://github.com/fake-harsh/id_card_project" class="text-blue-700 font-light text-lg" target="_blank">Github</a>
+            </div>
+
+            <div class="item  hover:scale-105 mt-9 duration-200 lg:w-1/4">
+                <img class="m-auto" src="imgs/digit identification.jpg" alt="Digit identification">
+                <h3 class="py-5 font-extrabold">Gujarati Digit Identification</h3>
+                <p class="py-5">Implemented a software for college student that checks code of every student with multiple test cases given by professor to software and produce output on console as well as in an excel file.This solution is made with python.</p>
+                <a href="https://github.com/fake-harsh/id_card_project" class="text-blue-700 font-light text-lg" target="_blank">Github</a>
+            </div>
+
+            
+        </div>
     </section>
 </body>
 </html>
