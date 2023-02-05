@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Harsh, welcomes you</title>
 </head>
-<body class="scroll-smooth bg-black text-white ">
+<body id="body" class="scroll-smooth bg-black text-white ">
 
     <!-- navbar -->
-    <div class="nav flex justify-center sticky top-0 z-50 w-full h-full">
-        <nav class="bg-black text-white flex flex-row lg:flex justify-center w-full h-full flex-wrap">
-            <div class="hidden md:inline lg:inline  icon m-3">
-                <button class="hidden md:inline lg:inline" onclick="Inc()"><img class="md:w-12 lg:w-12 m-1 logo transition-all duration-900 " src="./imgs/coding logo.svg" alt=""></button>
+    <div id="nav" class="nav flex justify-center sticky top-0 z-50 w-full h-full">
+        <nav class="flex flex-row lg:flex justify-center w-full h-full flex-wrap">
+            <div class="inline md:inline lg:inline icon m-3">
+                <button class="w-12 h-max m-1 mb-0" id="btnclr" onclick="swap()"><img class="m-1 logo" src="./imgs/coding logo.svg" alt=""></button>
             </div>
-            <div class="items m-3 mr-10">
-                <ul class="flex   flex-wrap  align-middle p-1 space-x-6">
+            <div class="flex justify-center items m-3 mr-10">
+                <ul class="flex justify-center  flex-wrap  align-middle p-1 space-x-6">
                     <li class="text-lg  py-2 hover:border-b-2  hover:border-blue-500"><a accesskey="h" href="#Home">Home</a></li>
                     <li class="text-lg hidden md:inline-block lg:inline-block  py-2 hover:border-b-2 hover:border-blue-500"><a accesskey="a" href="#About">About</a></li>
                     <li class="text-lg  py-2 hover:border-b-2  hover:border-blue-500"><a accesskey="p" href="#Projects">Projects</a></li>
